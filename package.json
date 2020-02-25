@@ -72,9 +72,6 @@
     "test": "jest",
     "typeCheck": "tsc --noEmit"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "browserslist": {
     "production": [
       ">0.2%",

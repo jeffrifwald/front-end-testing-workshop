@@ -5,7 +5,7 @@ import logo from '../logo.svg';
 const App: React.FC = () => {
   return (
     <header classname="Header">
-      <img src={logo} className="App-logo" alt="logo" />
+      <img src={logo} className="App-logo" />
       <Link to="/home">Home Link</Link>
       <Link to="/login">Login Link</Link>
     </header>
