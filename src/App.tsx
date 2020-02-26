@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Header from './components/Header';
-import HomePage from './pages/HomePage';
-import LoginPage from './pages/LoginPage';
+import { Header } from './components/Header';
+import { HomePage } from './pages/HomePage';
+import { LoginPage } from './pages/LoginPage';
 import './App.css';
 
 const App: React.FC = () => {
