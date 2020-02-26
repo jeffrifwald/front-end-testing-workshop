@@ -24,4 +24,9 @@
 4. Add a test case for a successful login. (email: janedoe@test.com, password: 123456)
 5. Add a test case for a failed login. (message: 'Username and password do not match.')
 
+## Bonus - Check coverage
+
+1. Run `yarn test --collect-coverage`.
+2. Open `coverage/lcov-report/index.html`.
+
 
