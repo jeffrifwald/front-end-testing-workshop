@@ -6,7 +6,7 @@
 ## Part Two - Unit Testing
 
 1. Run `yarn test` and note the error that appears.
-2. Why does the App test pass and the Header test fail?
+2. Why does the `src/App.test.tsx` test pass and the `src/components/Header/Header.test.tsx` test fail?
 3. Fix the `src/components/Header/Header.test.tsx` test.
 
 
@@ -18,8 +18,9 @@
 
 ## Part Four - E2E Testing
 
-1. Open the `cypress/integration/login.js` test.
-2. Add a test case for a successful login. (email: janedoe@test.com, password: 123456)
-3. Add a test case for a failed login.
+1. Run `yarn build && yarn start` to start the app server.
+2. Open the `cypress/integration/login.js` test.
+3. Add a test case for a successful login. (email: janedoe@test.com, password: 123456)
+4. Add a test case for a failed login.
 
 
