@@ -20,8 +20,6 @@ const reducer = (state: LoginState, action: LoginAction): LoginState => {
       return { ...state, error: null, token: action.payload.token };
     case 'LOGIN_ERROR':
       return { ...state, error: action.payload.error, token: null };
-    default:
-      return state;
   }
 };
 
@@ -41,7 +39,7 @@ export const Login: React.FC = () => {
             payload: { token: data.token },
             type: 'LOGIN_SUCCESS'
           });
-        } else if (data.error) {
+        } else {
           dispatch({
             payload: { error: data.error },
             type: 'LOGIN_ERROR'
