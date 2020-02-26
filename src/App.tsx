@@ -5,7 +5,7 @@ import { HomePage } from './pages/HomePage';
 import { LoginPage } from './pages/LoginPage';
 import './App.css';
 
-const App: React.FC = () => {
+export const App: React.FC = () => {
   return (
     <div className="App">
       <BrowserRouter>
@@ -18,5 +18,3 @@ const App: React.FC = () => {
     </div>
   );
 };
-
-export default App;
